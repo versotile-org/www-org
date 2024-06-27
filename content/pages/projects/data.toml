@@ -1,0 +1,21 @@
+[[project]]
+name = "Verso"
+desc = "browser"
+tags = []
+links = [
+    { name = "homepage", url = "https://versotile.org/verso" },
+    { name = "github", url = "https://github.com/versotile-org/verso" },
+    # { name = "docs", url = "https://docs.versotile.org/verso" },
+]
+
+[[project]]
+name = "Fortress"
+desc = "vault"
+tags = []
+links = [
+    { name = "homepage", url = "https://versotile.org/fortress" },
+    { name = "github", url = "https://github.com/versotile-org/fortress" },
+    # { name = "docs", url = "https://docs.versotile.org/fortress" },
+]
+
+
