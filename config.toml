@@ -1,0 +1,156 @@
+# Base settings
+base_url = "https://versotile.org"
+title = "Versotile"
+description = "website of the organization Versotile"
+default_language = "en"
+
+# compilation details
+theme = "kita"
+output_dir = "public"
+preserve_dotfiles_in_output = false
+compile_sass = true
+minify_html = true
+
+ignored_content = []
+ignored_static = []
+
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+# feed_limit = 20
+
+hard_link_static = false
+
+author = "Versotile"
+
+taxonomies = []
+
+build_search_index = true
+
+
+[markdown]
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+extra_syntaxes_and_themes = []
+
+render_emoji = true
+
+external_links_target_blank = true
+external_links_no_follow = false
+external_links_no_referrer = false
+
+smart_punctuation = false
+lazy_async_image = true
+bottom_footnotes = true
+
+[link_checker]
+skip_prefixes = []
+skip_anchor_prefixes = []
+
+internal_level = "error"
+external_level = "error"
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"
+paths_keep_dates = false
+
+[search]
+include_title = true
+include_description = false
+include_date = false
+include_path = false
+include_content = true
+# truncate_content_length = 100
+
+index_format = "elasticlunr_javascript"
+
+[translations]
+
+[languages]
+
+############################################
+
+# The Kita theme style config.
+[extra]
+# Enable KaTex math formula support globally.
+math = false
+# Enable mermaid support globally.
+mermaid = false
+# Enable comment support globally.
+comment = false
+# The URL of social image.
+social_image = "icons/github.svg"
+
+[extra.style]
+# The custom background color.
+# bg_color = ""
+
+# The custom background color in dark mode.
+# bg_dark_color = ""
+
+# Enable header blur.
+# header_blur = true
+
+# The custom header color, only available when `header_blur` is false.
+# header_color = ""
+
+# The custom header color in dark mode, only available when `header_blur` is false.
+# header_dark_color = ""
+
+# The profile on home page.
+[extra.profile]
+name = "The Versotile Organization"
+bio = "... for a better and safer web"
+# The URL of avatar.
+avatar_url = "icons/versotile.svg"
+# Invert color in dark mode.
+avatar_invert = true
+
+# The social icons below the profile on the home page.
+# The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
+[[extra.profile.social]]
+name = "github"
+url = "https://github.com/versotile-org"
+
+[[extra.profile.social]]
+name = "zulip"
+url = "https://versotile.zulipchat.com/"
+
+[[extra.profile.social]]
+name = "rss"
+url = "$BASE_URL/rss.xml"
+
+# The top menu.
+[[extra.menu]]
+name = "Projects"
+url = "$BASE_URL/projects"
+
+[[extra.menu]]
+name = "Blog"
+url = "$BASE_URL/blog"
+
+[[extra.menu]]
+name = "About"
+url = "$BASE_URL/about"
+
+# The page footer options.
+[extra.footer]
+since = 2024
+license = "CC BY-SA 4.0"
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
+
+# The giscus comment options, only available when comment is enabled.
+[extra.giscus]
+repo = ""
+repo_id = ""
+category = ""
+category_id = ""
+mapping = "pathname"
+strict = 1
+reactions_enabled = 0
+emit_metadata = 0
+input_position = "top"
+theme = "light"
+lang = "en"
+loading = "lazy"
