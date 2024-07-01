@@ -22,7 +22,7 @@ hard_link_static = false
 
 author = "Versotile"
 
-taxonomies = []
+taxonomies = [{ name = "tags", rss = true, paginate_by = 5 }]
 
 build_search_index = true
 
