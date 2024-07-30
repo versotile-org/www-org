@@ -12,12 +12,17 @@ links = [
 name = "FORTRESS"
 desc = "Security Container for Sensitive Data"
 tags = ["vault", "encryption", "cryptography", "security", "isolation"]
-
-
 links = [
     { name = "homepage", url = "/fortress" },
     { name = "github", url = "https://github.com/versotile-org/fortress" },
     { name = "docs", url = "https://docs.versotile.org/fortress" },
 ]
 
-
+[[project]]
+name = "Accelerate"
+desc = "Simplified Machine Learning Model Abstraction Layer"
+tags = ["machine-learning", "llm", "transformer", "model", "loading"]
+links = [
+    { name = "homepage", url = "/accelerate" },
+    { name = "github", url = "https://github.com/versotile-org/verso-accelerator" },
+]
