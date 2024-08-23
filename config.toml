@@ -127,6 +127,10 @@ name = "Projects"
 url = "$BASE_URL/projects"
 
 [[extra.menu]]
+name = "Docs"
+url = "https://docs.versotile.org"
+
+[[extra.menu]]
 name = "Blog"
 url = "$BASE_URL/blog"
 
